@@ -12,8 +12,8 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
       import-sync:
-        specifier: ^2.2.3
-        version: 2.2.3
+        specifier: ^2.2.4
+        version: 2.2.4
     devDependencies:
       jest:
         specifier: ^29.7.0
@@ -185,10 +185,6 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
-
-  '@httptoolkit/esm@3.3.1':
-    resolution: {integrity: sha512-XvWsT5qskZQoiHgg0kEoIonB+Zj/0T/W0rosjzyPuY++iBwO5c9fMfgvPBCffwY3cTrTD4KYpTPUEtLD0I1lmQ==}
-    engines: {node: '>=6'}
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -610,6 +606,10 @@ packages:
     resolution: {integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==}
     engines: {node: '>=8'}
 
+  esm-sync@3.3.3:
+    resolution: {integrity: sha512-lhHD4F6V8CSGX3nBjhyJnbKmqtWEh64sp2bW4ezJC1cB6LzrBwfiAbhT6M3QfdbPKzrFITrWWg997h0WFCSOQA==}
+    engines: {node: '>=6'}
+
   esprima@4.0.1:
     resolution: {integrity: sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==}
     engines: {node: '>=4'}
@@ -731,8 +731,8 @@ packages:
     engines: {node: '>=8'}
     hasBin: true
 
-  import-sync@2.2.3:
-    resolution: {integrity: sha512-ZnF84+eGjetsXwYEuFZADO4eCYr1ngBo6UK476Oq4q6dkiDM1TN+6D5iQ5/e3erCyjo7O6xT3xHE6xdtCgDYhw==}
+  import-sync@2.2.4:
+    resolution: {integrity: sha512-3Uy1FPURqplUhtoAyAJx/IEVt+RigVqZFg45pEzhHLS2V5QKcy0Ls4d90gV6cGef7toIY81dKmFMqsJ8WqoOAQ==}
 
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
@@ -1149,6 +1149,10 @@ packages:
   prompts@2.4.2:
     resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
     engines: {node: '>= 6'}
+
+  punycode@2.3.1:
+    resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
+    engines: {node: '>=6'}
 
   pure-rand@6.1.0:
     resolution: {integrity: sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==}
@@ -1583,8 +1587,6 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@bcoe/v8-coverage@0.2.3': {}
-
-  '@httptoolkit/esm@3.3.1': {}
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -2137,6 +2139,10 @@ snapshots:
 
   escape-string-regexp@2.0.0: {}
 
+  esm-sync@3.3.3:
+    dependencies:
+      punycode: 2.3.1
+
   esprima@4.0.1: {}
 
   execa@5.1.1:
@@ -2266,9 +2272,9 @@ snapshots:
       pkg-dir: 4.2.0
       resolve-cwd: 3.0.0
 
-  import-sync@2.2.3:
+  import-sync@2.2.4:
     dependencies:
-      '@httptoolkit/esm': 3.3.1
+      esm-sync: 3.3.3
 
   imurmurhash@0.1.4: {}
 
@@ -2830,6 +2836,8 @@ snapshots:
     dependencies:
       kleur: 3.0.3
       sisteransi: 1.0.5
+
+  punycode@2.3.1: {}
 
   pure-rand@6.1.0: {}
 
