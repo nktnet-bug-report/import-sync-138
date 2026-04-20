@@ -9,11 +9,11 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@kubernetes/client-node": "^1.0.0",
+    "@kubernetes/client-node": "^1.4.0",
     "import-sync": "^2.2.4"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^30.3.0"
   },
   "jest": {
     "testEnvironment": "node"
@@ -21,5 +21,5 @@
   "volta": {
     "node": "22.14.0"
   },
-  "packageManager": "pnpm@10.6.3"
+  "packageManager": "pnpm@10.33.0"
 }
