@@ -10,7 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "@kubernetes/client-node": "^1.4.0",
-    "import-sync": "^2.2.5"
+    "jiti": "^2.6.1"
   },
   "devDependencies": {
     "@jest/globals": "^30.3.0",

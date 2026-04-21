@@ -1,9 +1,10 @@
 const { performance: perfHooksPerformance } = require("perf_hooks");
 
-const importSync = require("import-sync");
+const { createJiti } = require("jiti");
+const jiti = createJiti(__filename);
 
 const beforeTime = perfHooksPerformance.now();
-const k8s = importSync("@kubernetes/client-node");
+const k8s = jiti("@kubernetes/client-node");
 const importTime = perfHooksPerformance.now() - beforeTime;
 
 console.log(`importSync in ${importTime / 1000} seconds.`);
