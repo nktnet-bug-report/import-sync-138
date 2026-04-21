@@ -1,4 +1,4 @@
-# import-sync issue #128
+# import-sync issue #138
 
 > https://github.com/nktnet1/import-sync/issues/138
 
