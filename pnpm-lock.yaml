@@ -12,8 +12,8 @@ importers:
         specifier: ^1.4.0
         version: 1.4.0
       import-sync:
-        specifier: ^2.2.4
-        version: 2.2.4
+        specifier: ^2.2.5
+        version: 2.2.5
     devDependencies:
       '@jest/globals':
         specifier: ^30.3.0
@@ -859,8 +859,8 @@ packages:
     resolution: {integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==}
     engines: {node: '>=8'}
 
-  esm-sync@3.3.3:
-    resolution: {integrity: sha512-lhHD4F6V8CSGX3nBjhyJnbKmqtWEh64sp2bW4ezJC1cB6LzrBwfiAbhT6M3QfdbPKzrFITrWWg997h0WFCSOQA==}
+  esm-sync@3.3.4:
+    resolution: {integrity: sha512-sREHsPB/7OIQiI0u8rTYC+rYpxj5K9aIGN6NwOmuZR2QixINAXDEIuvwUwRdtI24FBpwnk/60aSujeDtp/f9Yg==}
     engines: {node: '>=6'}
 
   esprima@4.0.1:
@@ -995,8 +995,8 @@ packages:
     engines: {node: '>=8'}
     hasBin: true
 
-  import-sync@2.2.4:
-    resolution: {integrity: sha512-3Uy1FPURqplUhtoAyAJx/IEVt+RigVqZFg45pEzhHLS2V5QKcy0Ls4d90gV6cGef7toIY81dKmFMqsJ8WqoOAQ==}
+  import-sync@2.2.5:
+    resolution: {integrity: sha512-Loe2YLyLKf/Bqs7KHQGtWwvn5sWwrv457N58smRKD94WI28ynw6YaTV0yKRM4bdaw+LlwNP9/aRk+AFEVzQhlw==}
 
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
@@ -2607,7 +2607,7 @@ snapshots:
 
   escape-string-regexp@2.0.0: {}
 
-  esm-sync@3.3.3:
+  esm-sync@3.3.4:
     dependencies:
       punycode: 2.3.1
 
@@ -2755,9 +2755,9 @@ snapshots:
       pkg-dir: 4.2.0
       resolve-cwd: 3.0.0
 
-  import-sync@2.2.4:
+  import-sync@2.2.5:
     dependencies:
-      esm-sync: 3.3.3
+      esm-sync: 3.3.4
 
   imurmurhash@0.1.4: {}
 
