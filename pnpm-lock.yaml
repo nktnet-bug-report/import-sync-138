@@ -163,7 +163,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  esm-sync: 3.4.0-beta.1
+  esm-sync: 3.4.0-beta.2
 
 importers:
 
@@ -1045,8 +1045,8 @@ packages:
     resolution: {integrity: sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==}
     engines: {node: '>=8'}
 
-  esm-sync@3.4.0-beta.1:
-    resolution: {integrity: sha512-DvH0jYCh12hbdgY+UmlJWe6UhM6GMrOfggbS1Wxis+NTbZ9A0i+7mvCWxA8sGPz+UjUIN6joEHdLcKG+anIfWw==}
+  esm-sync@3.4.0-beta.2:
+    resolution: {integrity: sha512-91bDgfspQPA3Fb9KsMH3LXM0oFLBy2dDOQtfsD1T8bAbukZPipNbym7ahrEZqh8TyRh/eUcD1iozQBO3MCWnyw==}
     engines: {node: '>=6'}
 
   esprima@4.0.1:
@@ -2706,7 +2706,7 @@ snapshots:
 
   escape-string-regexp@2.0.0: {}
 
-  esm-sync@3.4.0-beta.1:
+  esm-sync@3.4.0-beta.2:
     dependencies:
       punycode: 2.3.1
 
@@ -2843,7 +2843,7 @@ snapshots:
 
   import-sync@2.2.6:
     dependencies:
-      esm-sync: 3.4.0-beta.1
+      esm-sync: 3.4.0-beta.2
 
   imurmurhash@0.1.4: {}
 

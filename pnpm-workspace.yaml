@@ -1,8 +1,8 @@
 overrides:
-  esm-sync: "3.4.0-beta.1"
+  esm-sync: "3.4.0-beta.2"
 allowBuilds:
   '@parcel/watcher': false
   esm-sync: true
   unrs-resolver: false
 minimumReleaseAgeExclude:
-  - esm-sync@3.4.0-beta.1
+  - esm-sync@3.4.0-beta.2
